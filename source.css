@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #fbcfe8, #f472b6);
+  color: white;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin-top: 120px;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.btn.primary {
+  background: white;
+  color: #ec4899;
+  border: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.about, .product, .testimonials {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background: #fdf2f8;
+}
+
+.feature {
+  max-width: 250px;
+}
+
+.product {
+  background: #fff1f2;
+}
+
+.price {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #ec4899;
+}
+
+.testimonials blockquote {
+  max-width: 500px;
+  margin: 20px auto;
+  font-style: italic;
+}
+
+.testimonials span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
